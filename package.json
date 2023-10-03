@@ -15,6 +15,7 @@
   "author": "WasabiThumb",
   "license": "Apache-2.0",
   "scripts": {
+    "install": "node-gyp rebuild",
     "test": "node --napi-modules ./test/test.js"
   },
   "repository": {
