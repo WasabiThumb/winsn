@@ -1,0 +1,24 @@
+{
+  "name": "winsn",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "description": "Convert path names to (Windows-only) short names",
+  "keywords": [
+    "windows",
+    "win32",
+    "short",
+    "path",
+    "name",
+    "GetShortPathNameW"
+  ],
+  "author": "WasabiThumb",
+  "license": "ISC",
+  "scripts": {
+    "test": "node --napi-modules ./test/test.js"
+  },
+  "gypfile": true,
+  "dependencies": {
+    "node-addon-api": "^1.1.0"
+  }
+}
