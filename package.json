@@ -13,9 +13,13 @@
     "GetShortPathNameW"
   ],
   "author": "WasabiThumb",
-  "license": "ISC",
+  "license": "Apache-2.0",
   "scripts": {
     "test": "node --napi-modules ./test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/WasabiThumb/winsn.git"
   },
   "gypfile": true,
   "dependencies": {
